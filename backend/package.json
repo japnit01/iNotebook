@@ -1,0 +1,17 @@
+{
+  "name": "inotebook-backend",
+  "version": "1.0.0",
+  "description": "Your cloud notebook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Japnit Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.14.0",
+    "mongoose": "^6.1.2"
+  },
+  "devDependencies": {}
+}
