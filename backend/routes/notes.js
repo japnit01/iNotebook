@@ -53,7 +53,7 @@ router.put('/updatenote/:id', fetchuser, [
         }
 
         if (description) {
-            newnote.description = tag;
+            newnote.description = description;
         }
 
         if (tag) {
