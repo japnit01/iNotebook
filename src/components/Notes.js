@@ -32,6 +32,7 @@ function Notes() {
     }
 
     const onChange = (e) =>{
+    
         setnote({...note,[e.target.name]:e.target.value})
     }
 

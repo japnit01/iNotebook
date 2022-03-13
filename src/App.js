@@ -6,12 +6,14 @@ import NoteState from './Context/notes/Notestate';
 import Alert from './components/Alert';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
-
 import {
   BrowserRouter,
   Routes,
   Route
 } from "react-router-dom";
+
+
+
 
 function App() {
   return (
